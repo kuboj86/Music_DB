@@ -1,10 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MusicDB.Data;
+using MusicDB.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<MusicDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MusicDBContext") ?? throw new InvalidOperationException("Connection string 'MusicDBContext' not found.")));
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
 
+    SeedData.Initialize(services);
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

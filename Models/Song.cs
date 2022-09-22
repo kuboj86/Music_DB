@@ -18,9 +18,9 @@ namespace MusicDB.Models
         [StringLength(30)]
         public string? Genre { get; set; }
 
-        [DataType(DataType.Time)]
+        //[DataType(DataType.Time)]
         [RegularExpression(@"^[0-5]?\d:[0-5]\d$")]
-        public DateTime? SongLength { get; set; }
+        public string? SongLength { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime? ReleaseDate { get; set; } 

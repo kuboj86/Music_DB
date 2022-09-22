@@ -1,34 +1,35 @@
-﻿using System.Runtime.Intrinsics.X86;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicDB.Data;
 
 namespace MusicDB.Models
 {
-    public class SeedData
+    public static class SeedData
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new RazorPagesMovieContext(
+            using (var context = new MusicDBContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<RazorPagesMovieContext>>()))
+                    DbContextOptions<MusicDBContext>>()))
             {
-                if (context == null || context.Movie == null)
+                if (context == null || context.Song == null)
                 {
-                    throw new ArgumentNullException("Null RazorPagesMovieContext");
+                    throw new ArgumentNullException("Null RazorPagesSongContext");
                 }
 
-                // Look for any movies.
-                if (context.Movie.Any())
+                // Look for any Songs.
+                if (context.Song.Any())
                 {
                     return;   // DB has been seeded
                 }
 
-                context.Movie.AddRange(
+                context.Song.AddRange(
                     new Song
                     {
                         SongTitle = "I Want It That Way",
                         Artist = "Backstreet Boys",
                         Album = "Millenium",
                         Genre = "Pop",
-                        SongLength = DateTime.Parse("3:33"),
+                        SongLength = "3:33",
                         ReleaseDate = DateTime.Parse("4-12-1999")
                     },
 
@@ -38,7 +39,7 @@ namespace MusicDB.Models
                         Artist = "NSYNC",
                         Album = "No Strings Attached",
                         Genre = "Pop",
-                        SongLength = DateTime.Parse("3:11"),
+                        SongLength = "3:11",
                         ReleaseDate = DateTime.Parse("2000-06-12")
                     },
 
@@ -48,7 +49,7 @@ namespace MusicDB.Models
                         Artist = "Britney Spears",
                         Album = "Oops!... I Did it Again",
                         Genre = "Dance-pop",
-                        SongLength = DateTime.Parse("3:31"),
+                        SongLength = "3:31",
                         ReleaseDate = DateTime.Parse("04-11-2000")
 
                     }
