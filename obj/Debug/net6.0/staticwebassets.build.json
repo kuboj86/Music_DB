@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fT/poGGy2a3+5v9HI3yZPFFJDzs0Jw4mIuV1zg8Xkxw=",
+  "Hash": "5oGdhyAaXJbuhYYL400qnDkE9A7FSypYADSTvLI8cLw=",
   "Source": "MusicDB",
   "BasePath": "_content/MusicDB",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sckit\\source\\repos\\MusicDB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MusicDB.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\sckit\\source\\repos\\MusicDB\\wwwroot\\css\\robert.css",
+      "SourceId": "MusicDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sckit\\source\\repos\\MusicDB\\wwwroot\\",
+      "BasePath": "_content/MusicDB",
+      "RelativePath": "css/robert.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\robert.css"
     },
     {
       "Identity": "C:\\Users\\sckit\\source\\repos\\MusicDB\\wwwroot\\css\\site.css",

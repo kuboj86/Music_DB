@@ -31,6 +31,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sckit/source/repos/MusicDB/Pages/Robert/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sckit/source/repos/MusicDB/Pages/Robert/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sckit/source/repos/MusicDB/Pages/Robert/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sckit/source/repos/MusicDB/Pages/Robert/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sckit/source/repos/MusicDB/Pages/Robert/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
