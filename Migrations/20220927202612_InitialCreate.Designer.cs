@@ -12,7 +12,7 @@ using MusicDB.Data;
 namespace MusicDB.Migrations
 {
     [DbContext(typeof(MusicDBContext))]
-    [Migration("20220927002429_InitialCreate")]
+    [Migration("20220927202612_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

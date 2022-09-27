@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TUd4ZlVfxrmBVWuBuZH/mBATeOY3ILdr544kMIZSiws=",
+  "Hash": "wg4akNxAP0LmaWETTox3OBB/4pGRSCH4qwTIxxt3oR0=",
   "Source": "MusicDB",
   "BasePath": "_content/MusicDB",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Code\\CIT255\\Music_DB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MusicDB.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\css\\jason.css",
+      "SourceId": "MusicDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\",
+      "BasePath": "_content/MusicDB",
+      "RelativePath": "css/jason.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jason.css"
+    },
+    {
+      "Identity": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\css\\MusicDB.css",
+      "SourceId": "MusicDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\",
+      "BasePath": "_content/MusicDB",
+      "RelativePath": "css/MusicDB.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MusicDB.css"
     },
     {
       "Identity": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\css\\robert.css",
@@ -100,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\Images\\mainBackgroundImage.png",
+      "SourceId": "MusicDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\",
+      "BasePath": "_content/MusicDB",
+      "RelativePath": "Images/mainBackgroundImage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\mainBackgroundImage.png"
     },
     {
       "Identity": "C:\\Code\\CIT255\\Music_DB\\wwwroot\\js\\site.js",
