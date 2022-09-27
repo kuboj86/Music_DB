@@ -8,81 +8,97 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicDB
 build_property.RootNamespace = MusicDB
-build_property.ProjectDir = C:\Users\sckit\OneDrive\Desktop\255DBMusic\
+build_property.ProjectDir = C:\Code\CIT255\Music_DB\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sckit\OneDrive\Desktop\255DBMusic
+build_property.MSBuildProjectDirectory = C:\Code\CIT255\Music_DB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Error.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Index.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Jason/Index.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Jason/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFzb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/CIT255/Music_DB/Pages/Jason/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFzb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/CIT255/Music_DB/Pages/Jason/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFzb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/CIT255/Music_DB/Pages/Jason/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFzb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/CIT255/Music_DB/Pages/Jason/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFzb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Privacy.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Robert/Create.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Robert/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Robert/Delete.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Robert/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Robert/Details.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Robert/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Robert/Edit.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Robert/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Robert/Index.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Robert/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iZXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Sam/Create.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Sam/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Sam/Delete.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Sam/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Sam/Details.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Sam/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Sam/Edit.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Sam/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Sam/Index.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Sam/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/_ViewImports.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/_ViewStart.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sckit/OneDrive/Desktop/255DBMusic/Pages/Shared/_Layout.cshtml]
+[C:/Code/CIT255/Music_DB/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b7216c17t6
