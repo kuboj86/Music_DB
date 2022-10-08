@@ -2,16 +2,25 @@
     background: lightblue;
 }
 
-td, th, dt, dd {
+td, th, dt, dd, .form-group {
     border: .1px solid;
     text-align: center;
     background: lightblue;
 }
 
-a{
+.form-group{
+    padding: 5px;
+}
+
+a, .btn{
     border: .1px solid;
+    border-radius: 10px;
     background: lightgrey;
     text-decoration: none;
     color: black;
+    text-align:center;
+    font-size: 15px;
+    height: auto;
+    width: auto;
     padding: 5px;
 }

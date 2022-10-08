@@ -21,7 +21,7 @@ namespace MusicDB.Models
         public string? Genre { get; set; }
 
         //[DataType(DataType.Time)]
-        [RegularExpression(@"^[0-5]?\d:[0-5]\d$")]
+        [RegularExpression(@"^[0-5]?\d:[0-5]\d$", ErrorMessage = "Length must be formatted as 12:34")]
         [Display(Name = "Song Length")]
         public string? SongLength { get; set; }
 
