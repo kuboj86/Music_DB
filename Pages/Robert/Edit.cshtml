@@ -5,6 +5,10 @@
     ViewData["Title"] = "Edit";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/robert.css">
+</head>
+
 <h1>Edit</h1>
 
 <h4>Song</h4>
@@ -45,14 +49,14 @@
                 <span asp-validation-for="Song.ReleaseDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                
+                <a asp-page="./Edit" asp-route-id="@ViewData["prevId"]">Previous</a>
+                <input type="submit" value="Save" class="btn" />
+                <a asp-page="./Index">Return</a>
+                <a asp-page="./Edit" asp-route-id="@ViewData["nextId"]">Next</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-page="./Index">Back to List</a>
 </div>
 
 @section Scripts {

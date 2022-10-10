@@ -36,6 +36,41 @@ namespace MusicDB.Pages.Robert
                 return NotFound();
             }
             Song = song;
+
+            var limit = 10;
+            for (int i = 1; i < limit; i++)
+            {
+                var nextSong = await _context.Song.FirstOrDefaultAsync(m => m.Id == id + i);
+                if (nextSong != null)
+                {
+                    ViewData["nextId"] = nextSong.Id;
+                    break;
+                }
+                if (i == limit - 1 && nextSong == null)
+                {
+                    ViewData["nextId"] = id;
+                }
+            }
+
+            for (int i = 1; i < limit; i++)
+            {
+                if (id - 1 == 0)
+                {
+                    ViewData["prevId"] = 1;
+                    break;
+                }
+                var prevSong = await _context.Song.FirstOrDefaultAsync(m => m.Id == id - i);
+                if (prevSong != null)
+                {
+                    ViewData["prevId"] = prevSong.Id;
+                    break;
+                }
+                if (i == limit + 1 && prevSong == null)
+                {
+                    ViewData["prevId"] = id;
+                }
+            }
+
             return Page();
         }
 
