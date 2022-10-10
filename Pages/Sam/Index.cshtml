@@ -1,16 +1,45 @@
 ﻿@page
 @model MusicDB.Pages.Sam.IndexModel
+@section Styles{
+    <link rel="stylesheet" href="~/css/sam.css">
+    <style type="text/css">
+        body {
+            background-image: url('/Images/vinyl-2573856_1280.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            color: goldenrod;
+        }
+        a {
+            padding: 2px;
+            background: black;
+            text-decoration: none;
+            color: goldenrod;
+        }
+            .table tbody tr:hover td, .table tbody tr:hover th {
+            background-color: goldenrod;
+        }
+    </style>
 
-@{
+}
+    @{
     ViewData["Title"] = "Index";
 }
+<form>
+    Artist: <select asp-for="ArtistName" asp-items="Model.Artists">
+        <option value="">All</option>
+    </select>
+    Title: <input type="text" asp-for="SearchString" />
+    <input type="submit" value="Filter" />
+    @* <button type="button" class="btn btn-info"><a asp-page="./create">add</a></button>*@
+</form>
 
-<h1>Index</h1>
+<h1>Sam's MusicDB Page</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <button type="button" class="btn"><a asp-page="Create">Add</a></button>
 </p>
-<table class="table">
+<table class="table table-responsive table-hover bg-black bg-opacity-75 text-light">
     <thead>
         <tr>
             <th>
@@ -35,32 +64,33 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Song) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.SongTitle)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Artist)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Album)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SongLength)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReleaseDate)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.Song)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SongTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Artist)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Album)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SongLength)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td>
+                    <button type="button" class="btn"><a asp-page="./Edit" asp-route-id="@item.Id">Edit</a></button>|
+                    <button type="button" class="btn"><a asp-page="./Details" asp-route-id="@item.Id">Details</a></button>|
+                    <button type="button" class="btn"><a asp-page="./Delete" asp-route-id="@item.Id">Delete</a></button>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

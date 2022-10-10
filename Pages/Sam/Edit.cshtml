@@ -1,5 +1,32 @@
 ﻿@page
 @model MusicDB.Pages.Sam.EditModel
+@section Styles{
+    <link rel="stylesheet" href="~/css/sam.css">
+    <style type="text/css">
+        body {
+            background-image: url('/Images/vinyl-2573856_1280.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+        }
+
+        a {
+            padding: 3px;
+            background: black;
+            text-decoration: none;
+            color: goldenrod;
+            padding: 2px;
+        }
+        h1{
+            text-shadow: 2px 2px black;
+        }
+        h4 {
+            color: goldenrod;
+            text-shadow: 2px 2px black;
+        }
+    </style>
+
+}
 
 @{
     ViewData["Title"] = "Edit";
@@ -9,13 +36,13 @@
 
 <h4>Song</h4>
 <hr />
-<div class="row">
+<div class="row bg-black bg-opacity-75">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Song.Id" />
             <div class="form-group">
-                <label asp-for="Song.SongTitle" class="control-label"></label>
+                <label asp-for="Song.SongTitle" class="control-label shadow-lg"></label>
                 <input asp-for="Song.SongTitle" class="form-control" />
                 <span asp-validation-for="Song.SongTitle" class="text-danger"></span>
             </div>

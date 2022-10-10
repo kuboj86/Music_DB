@@ -1,14 +1,42 @@
 ﻿@page
 @model MusicDB.Pages.Sam.DetailsModel
+@section Styles{
+    <link rel="stylesheet" href="~/css/sam.css">
+    <style type="text/css">
+        body {
+            background-image: url('/Images/vinyl-2573856_1280.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: black;
+            color: goldenrod;
+            margin: 0;
+        }
+
+        a {
+            padding: 3px;
+            background: black;
+            text-decoration: none;
+            color: goldenrod;
+            padding: 2px;
+        }
+
+        h4{
+            text-shadow: 2px 2px black;
+        }
+
+     
+    </style>
+
+}
 
 @{
     ViewData["Title"] = "Details";
 }
 
 <h1>Details</h1>
+<h4>Song</h4>
 
-<div>
-    <h4>Song</h4>
+<div class="bg-black bg-opacity-75">
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
