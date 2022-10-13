@@ -7,39 +7,43 @@
     ViewData["Title"] = "Index";
 }
 <div>
-<h1 class="display-4">Index</h1>
+<h1 class="display-4">Jason's Song View</h1>
 
 <p>
-    <a asp-page="Create">Add Song</a>
+        <a asp-page="Create">Add Song</a>
+
 </p>
-<form>
-    <p>
-        Title: <input type="text" asp-for="SearchString" />
-        <input type="submit" value="Filter" />
-    </p>
+<form asp-page="./Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name:
+            <input type="text" name="SearchString" value="@Model.SearchString" />
+            <input type="submit" value="Search" class="btn btn-primary" /> 
+        </p>
+    </div>
 </form>
 <div class="table-responsive">
     <table class="table table-dark table-hover">
         <thead>
             <tr>
                 <th>
-                    <a asp-page="./Index" asp-route-sortOrder="@Model.SongTitleSort">
+                    <a asp-page="./Index" asp-route-sort="@Model.SongTitleSort">
                         @Html.DisplayNameFor(model => model.Songs[0].SongTitle)
                     </a>
                 </th>
                 <th>
-                    <a asp-page="./Index" asp-route-sortOrder="@Model.ArtistNameSort">
+                    <a asp-page="./Index" asp-route-sort="@Model.ArtistNameSort">
                         @Html.DisplayNameFor(model => model.Songs[0].Artist)
                     </a>
                 </th>
                 <th>
-                    <a asp-page="./Index" asp-route-sortOrder="@Model.AlbumNameSort">
+                    <a asp-page="./Index" asp-route-sort="@Model.AlbumNameSort">
                         @Html.DisplayNameFor(model => model.Songs[0].Album)
                     </a>
 
                 </th>
                 <th>
-                    <a asp-page="./Index" asp-route-sortOrder="@Model.GenreSort">
+                    <a asp-page="./Index" asp-route-sort="@Model.GenreSort">
                         @Html.DisplayNameFor(model => model.Songs[0].Genre)
                     </a>
 

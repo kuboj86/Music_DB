@@ -8,9 +8,34 @@ h1 {
     color: aliceblue;
 
 }
+h3 {
+    font-family: 'Arial Rounded MT';
+    color: aliceblue;
+}
+h4 {
+    font-family: 'Arial Rounded MT';
+    color: aliceblue;
+}
 p {
     text-align:right;
 }
 .hiddenRow {
     padding: 0 !important;
+}
+#addSong {
+    border: .1px solid;
+    border-radius: 10px;
+    background: lightgrey;
+}
+a{
+    color: white;
+    font-weight:600
+}
+.row {
+    text-align: left;
+    font-family: 'Arial Rounded MT';
+    font-size: 20px;
+    color: aliceblue;
+    justify-content: center;
+    margin:auto;
 }
