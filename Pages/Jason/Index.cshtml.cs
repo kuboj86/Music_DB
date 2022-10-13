@@ -116,7 +116,7 @@ namespace MusicDB.Pages.Jason
                     break;
             }
 
-            if (!String.IsNullOrEmpty(SearchString))
+            if (!String.IsNullOrWhiteSpace(SearchString))
             {
                 Song = Song.Where(s => s.SongTitle.Contains(SearchString)
                                        || s.Artist.Contains(SearchString)

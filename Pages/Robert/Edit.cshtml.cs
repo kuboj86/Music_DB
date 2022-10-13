@@ -65,7 +65,7 @@ namespace MusicDB.Pages.Robert
                     ViewData["prevId"] = prevSong.Id;
                     break;
                 }
-                if (i == limit + 1 && prevSong == null)
+                if (i == limit - 1 && prevSong == null)
                 {
                     ViewData["prevId"] = id;
                 }

@@ -34,7 +34,7 @@ namespace MusicDB.Pages.Robert
                 Song = song;
             }
 
-            var limit = 10;
+            var limit = 20;
             for (int i = 1; i < limit; i++)
             {
                 var nextSong = await _context.Song.FirstOrDefaultAsync(m => m.Id == id + i);
@@ -62,7 +62,7 @@ namespace MusicDB.Pages.Robert
                     ViewData["prevId"] = prevSong.Id;
                     break;
                 }
-                if (i == limit + 1 && prevSong == null)
+                if (i == limit - 1 && prevSong == null)
                 {
                     ViewData["prevId"] = id;
                 }
